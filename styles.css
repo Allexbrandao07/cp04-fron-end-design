@@ -1,3 +1,9 @@
+:root {
+    --of-white: #fff3ef;
+    --gray-btn: #b4aaa3;
+    --project-black: #121212;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -25,12 +31,11 @@ main {
 }
 
 .section-1 {
-    /* max-height: 30rem; */
     height: 100%;
     width: 100%;
     margin-top: 2rem;
     padding: 4rem;
-    background-color: black;
+    background-color: var(--project-black);
 
     display: grid;
     gap: 15px;
@@ -82,8 +87,8 @@ main {
     border: 0;
     border-radius: 1rem;
     padding: .5rem 1rem;
-    color: black;
-    background-color: white;
+    color: var(--project-black);
+    background-color: var(--gray-btn);
 
 }
 
@@ -105,7 +110,7 @@ main {
     width: 100%;
     margin-top: 2rem;
     padding: 4rem;
-    background-color: #fff3ef;
+    background-color: var(--of-white);
 
     display: grid;
     gap: 15px;
